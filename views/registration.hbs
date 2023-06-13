@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <main>
+    <center>
+      <h3>Register Here</h3>
+      <form tagName="FORM" id="regform" action="/users/registration" method="POST" class="form-container"
+        enctype="application/x-ww-form-urlencoded">
+        <table>
+          <tr>
+            <td>Create a Username:</td>
+            <td>
+              <input id="username" type="text" name="username" placeholder="Username">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Enter your Email:</td>
+            <td>
+              <input id="email" type="email" name="email" placeholder="john@mail.com">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Create a Password:</td>
+            <td>
+              <input id="password" type="password" name="password" placeholder="Password">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Confirm Password:</td>
+            <td>
+              <input id="confirm-password" type="password" name="confirm_password" placeholder="Password">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Confirm 13+ Years of Age</td>
+            <td>
+              <input id="confirmAge" class="confirm-age-checkbox" type="checkbox" name="ageCheck">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a class="blank-TOS-page">TOS</a> and Privacy Rules
+            </td>
+            <td>
+              <input id="TOS" class="TOS-checkbox" type="checkbox" name="TOS">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input id="submit_btn" class="register-button" type="submit" name="submit_btn" value="Register">
+            </td>
+
+            <td>
+              Already have an Account? <a class="login-button-onregister" href="login">Login</a>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </main>
+</body>
+
+</html>

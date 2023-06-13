@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+
+    <div class="login-container">
+      <h3 class="login-here">Login Here</h3>
+      <form class="login-form" action="/users/login" method="post">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input id="username" type="text" name="username" placeholder="Username">
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input id="password" type="password" name="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <input class="login-button" type="submit" name="submit" value="Login">
+          <span class="register-link">Don't have an Account? <a class="register-button-onlogin" href="registration">Register</a></span>
+        </div>
+      </form>
+    </div>
+
+</body>
+
+</html>

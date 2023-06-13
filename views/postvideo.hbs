@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<center>
+  <form 
+  id="post-image" 
+  class="input-form" 
+  action="/posts/create" 
+  method="POST" 
+  enctype="multipart/form-data">
+    <h3>Post your Video Here</h3>
+    <table>
+      <tr>
+        <td>Input a Title for your Video:</td>
+        <td>
+          <input 
+          type="text" 
+          name="title">
+        </td>
+      </tr>
+      <tr>
+        Upload your Video: <input 
+        class="choose-file-button" 
+        type="file" 
+        name="uploadVideo" />
+      </tr>
+
+      <tr>
+        <td>Input a Description for your Video:</td>
+        <td>
+          <input 
+          type="text" 
+          name="description">
+        </td>
+      </tr>
+      <tr>
+        <td>Accept Use Policy:</td>
+        <td>
+          <input 
+          class="use-policy-checkbox" 
+          type="checkbox" 
+          name="policy_agreement">
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input 
+          class="upload-button" 
+          type="submit" 
+          name="submitVideo" 
+          value="Upload">
+        </td>
+      </tr>
+    </table>
+  </form>
+</center>
+
+
+</html>

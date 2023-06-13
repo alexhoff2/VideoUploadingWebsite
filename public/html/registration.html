@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<header>
+  <h1>
+    CSC 317 Website
+  </h1>
+  <nav>
+    <a type="submit" href="index.html">Index</a>
+    <a type="submit" href="login.html">Login</a>
+    <a type="submit" href="registration.html">Registration</a>
+    <a type="submit" href="postvideo.html">Post</a>
+    <a type="submit" href="viewvideo.html">View</a>
+    <a type="submit" href="profile.html">Profile</a>
+  </nav>
+</header>
+
+<body>
+  <main>
+    <center>
+      <h3>Register Here</h3>
+      <form tagName="FORM" id="regform" action="register.php" method="post" class="form-container">
+        <table>
+          <tr>
+            <td>Create a Username:</td>
+            <td>
+              <input id="username" type="text" name="user" placeholder="Username">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Enter your Email:</td>
+            <td>
+              <input id="email" type="email" name="email" placeholder="john@mail.com">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Create a Password:</td>
+            <td>
+              <input id="password" type="password" name="user_pass" placeholder="Password">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Confirm Password:</td>
+            <td>
+              <input id="confirm-password" type="password" name="user_pass_confirm" placeholder="Password">
+            </td>
+          </tr>
+
+          <tr>
+            <td>Confirm 13+ Years of Age</td>
+            <td>
+              <input id="confirmAge" ; class="confirm-age-checkbox" type="checkbox" name="13+">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <a class="blank-TOS-page">TOS</a> and Privacy Rules
+            </td>
+            <td>
+              <input id="TOS" ; class="TOS-checkbox" type="checkbox" name="rule_agreement">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input id="submit_btn" class="register-button" type="submit" name="submit_btn" value="Register">
+            </td>
+
+            <td>
+              Already have an Account? <a class="login-button-onregister" href="login.html">Login</a>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </main>
+  <script src="../js/validation.js"></script>
+</body>
+<footer class="site-footer">Alex Hoff &copy; 2023</footer>
+
+</html>

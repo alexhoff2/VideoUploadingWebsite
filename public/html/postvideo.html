@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      CSC 317 Website
+    </h1>
+    <nav>
+      <a href="index.html">Index</a>
+      <a href="login.html">Login</a>
+      <a href="registration.html">Registration</a>
+      <a href="postvideo.html">Post</a>
+      <a href="viewvideo.html">View</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+  <main>
+    <center>
+      <form>
+        <h3>Post your Video Here</h3>
+        <table>
+          <tr>
+            <td>Input a Title for your Video:</td>
+            <td>
+              <input type="text" name="post_title">
+            </td>
+          </tr>
+          <tr>
+            Upload your Video: <input class="choose-file-button" type="file" name="video_upload" />
+          </tr>
+
+          <tr>
+            <td>Input a Description for your Video:</td>
+            <td>
+              <input type="text" name="description">
+            </td>
+          </tr>
+          <tr>
+            <td>Accept Use Policy:</td>
+            <td>
+              <input class="use-policy-checkbox" type="checkbox" name="policy_agreement">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input class="upload-button" type="submit" name="submit" value="Upload">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </main>
+</body>
+<footer class="site-footer">Alex Hoff &copy; 2023</footer>
+
+</html>

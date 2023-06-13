@@ -1,0 +1,416 @@
+header {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: -moz-available;
+    border: 4px solid rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding: 8px;
+    background-color: rgb(71, 165, 252);
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+
+}
+
+
+
+.div h3 {
+    border: 4px solid rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding-top: 20px;
+    background-color: rgb(4, 90, 189);
+    text-align: center;
+    justify-content: center;
+    height: fit-content;
+    display: flex;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 15px;
+    color: rgb(255, 230, 195);
+    background-color: rgb(66, 66, 66);
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(71, 165, 252);
+    width: fit-content;
+    height: fit-content;
+    border: solid rgb(4, 90, 189) 4px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    margin-top: -4px;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+
+
+}
+
+nav>a {
+    color: rgb(255, 230, 195);
+    border-color: rgb(255, 230, 195);
+    padding: 4px;
+    height: fit-content;
+    padding-top: 7px;
+    border-width: 3px;
+    appearance: auto;
+    user-select: contain;
+    white-space: pre;
+    box-sizing: border-box;
+    background-color: rgb(4, 90, 189);
+    border-style: outset;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    padding: 30px;
+    transition: .1s;
+    text-align: center;
+
+}
+
+nav>a:active {
+    box-shadow: 1.5px 1.5px #666;
+    transform: translateY(1.5px) translateX(1.5px);
+}
+
+nav>a:hover {
+    font-size: 105%;
+    background-color: rgb(2, 62, 131);
+}
+
+main>a {
+    color: rgb(255, 230, 195);
+    text-decoration: none;
+    padding: 8px;
+    overflow: auto;
+}
+
+form {
+    color: rgb(255, 230, 195);
+    background-color: rgb(71, 165, 252);
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: -8px;
+}
+
+.site-footer {
+    color: rgb(255, 230, 195);
+    background-color: rgb(71, 165, 252);
+    text-align: center;
+    width: 100vw;
+    border: rgb(4, 90, 189) solid 4px;
+    padding: 8px;
+
+}
+
+.form-group {
+    margin: 25px;
+}
+
+.register-link {
+    margin: -28px;
+}
+
+table {
+    color: rgb(255, 230, 195);
+    background-color: rgb(71, 165, 252);
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+h2 {
+    width: fit-content;
+    border: 4px solid rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding: 8px;
+    background-color: rgb(71, 165, 252);
+    text-align: center;
+}
+
+div>video {
+    width: 270px;
+    border: 4px solid rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding: 8px;
+    background-color: rgb(71, 165, 252);
+    align-items: center;
+    width: 600px;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 2px rgb(4, 90, 189);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 812px;
+}
+
+.login-here {
+    margin-left: 100px;
+}
+
+.login-button:active {
+    box-shadow: 1px 1px #666;
+    transform: translateY(1px) translateX(1px);
+}
+
+.login-button:hover {
+    background-color: rgb(2, 62, 131);
+}
+
+.upload-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 2px rgb(4, 90, 189);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 20px;
+    translate: 56px;
+}
+
+.upload-button:hover {
+    background-color: rgb(2, 62, 131);
+}
+
+.upload-button:active {
+    box-shadow: 1px 1px #666;
+    transform: translateY(1px) translateX(1px);
+}
+
+.register-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 2px rgb(4, 90, 189);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.register-button:hover {
+    background-color: rgb(2, 62, 131);
+}
+
+.register-button:active {
+    box-shadow: 1px 1px #666;
+    transform: translateY(1px) translateX(1px);
+}
+
+.register-button-onlogin {
+    cursor: pointer;
+    color: rgb(255, 230, 195);
+}
+
+.register-button-onlogin:hover {
+    color: rgb(175, 157, 132);
+}
+
+.login-button-onregister {
+    cursor: pointer;
+    color: rgb(255, 230, 195);
+}
+
+.login-button-onregister:hover {
+    color: rgb(175, 157, 132);
+}
+
+.blank-TOS-page {
+    cursor: pointer;
+    color: rgb(255, 230, 195);
+}
+
+.blank-TOS-page:hover {
+    color: rgb(175, 157, 132);
+}
+
+.choose-file-button {
+    cursor: pointer;
+    color: rgb(255, 230, 195);
+}
+
+.use-policy-checkbox {
+    cursor: pointer;
+}
+
+.TOS-checkbox {
+    cursor: pointer;
+}
+
+.confirm-age-checkbox {
+    cursor: pointer;
+}
+
+main>center>li>a {
+    padding: 8px;
+}
+
+main>center>table>td>tr {
+    background-color: rgb(4, 90, 189);
+}
+
+.valid-text {
+    outline: solid green;
+}
+
+.invalid-text {
+    outline: solid red;
+}
+
+.profile {
+    width: fit-content;
+    border: 4px solid rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding: 8px;
+    background-color: rgb(71, 165, 252);
+    text-align: center;
+    margin: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.profile li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu-nobs {
+    position: relative;
+    display: inline-block;
+}
+
+.button-dropdown {
+    color: rgb(255, 230, 195);
+    border-color: rgb(255, 230, 195);
+    height: fit-content;
+    border-width: 3px;
+    appearance: auto;
+    white-space: pre;
+    box-sizing: border-box;
+    background-color: rgb(4, 90, 189);
+    border-style: outset;
+    cursor: pointer;
+    position: relative;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 11px;
+    padding-right: 12px;
+    padding-right: 74px;
+}
+
+.dropdown-menu-items {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(71, 165, 252);
+    border: solid rgb(4, 90, 189) 4px;
+    margin: -6px;
+    padding: 10px;
+    transform: translateX(150px);
+}
+
+.dropdown-menu-nobs:hover .dropdown-menu-items {
+    display: block;
+}
+
+.dropdown-menu-items a {
+    display: block;
+    color: rgb(255, 230, 195);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 0;
+    transition: background-color 0.2s;
+}
+
+.dropdown-menu-items a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown-menu-items form {
+    display: block;
+    color: rgb(255, 230, 195);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px 0;
+    transition: background-color 0.2s;
+}
+
+.comment-area{
+    width: 240px;
+    height: 42px;
+}
+
+.comment-button{
+    width: fit-content;
+    height: 51px;
+    margin-bottom: 4px;
+    transform: translateY(-16px);
+    background-color: rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+  }
+
+.search-button {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    padding-bottom: 10px;
+}
+
+.videoTitle{
+    background-color: rgb(4, 90, 189);
+    color: rgb(255, 230, 195);
+    border-color:rgb(71, 165, 252);
+}

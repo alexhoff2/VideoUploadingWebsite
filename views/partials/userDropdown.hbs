@@ -1,0 +1,11 @@
+<div class="dropdown-menu-nobs">
+    <button class="button-dropdown nav-items">
+Hello, {{user.username}}
+    </button>
+    <div class="dropdown-menu-items">
+        <a class="nav-items" href="/users/profile/{{user.userId}}">Profile</a>
+        <form class="nav-items" action="/users/logout" method="post">
+            <button type="submit">Log Out</button>
+        </form>
+    </div>
+</div>
